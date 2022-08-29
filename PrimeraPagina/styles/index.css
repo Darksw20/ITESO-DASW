@@ -1,0 +1,56 @@
+body {
+	background-color: #5b2c93;
+	color: white;
+}
+
+header.header {
+	display: flex;
+	justify-content: space-between;
+}
+footer {
+	display: flex;
+	margin-top: 10px;
+	border-top: 1px solid white;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+.footer .social-networks {
+	display: flex;
+}
+
+.social-networks .logos a img {
+	max-height: 50px;
+}
+
+.header .logo {
+	display: flex;
+}
+
+.logo img {
+	height: fit-content;
+	margin: auto;
+}
+
+.header .nav-buttons a {
+	color: white;
+}
+
+div.main {
+	background-color: white;
+	border-radius: 5px;
+	color: #5b2c93;
+	padding: 10px;
+}
+
+.event-layout {
+	display: flex;
+}
+.event-layout img {
+	width: 30%;
+	margin: 0 50px;
+}
+
+.main .table {
+	margin: auto;
+}
